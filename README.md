@@ -19,27 +19,28 @@ With this app, you can easily keep track of your travel experiences and visually
 
 1. **Clone Repository:** Start by cloning this repository to your local machine using the following command:
 	```bash
-		git clone https://github.com/raquib01/travel-pin.git
+	git clone https://github.com/raquib01/travel-pin.git
 	```
 
 2. Navigate to root directory
 	```bash
-		cd travel-pin
+	cd travel-pin
 	```
+ 
 3. **Install Dependencies:** Install the project dependencies using npm (Node Package Manager):
 	```bash
 	npm install
 	```
+ 
 4. **Start json-server:** Open a new terminal window and navigate to the project directory if you're not already there. Then, start the json-server to simulate a backend:
-
 	```bash
-		npm run server
+	npm run server
 	```
  
 5. **Start the React App:** In another terminal window, navigate to the project directory if you're not already there and start the React app:
 
 	```bash
-		npm run dev
+	npm run dev
 	```
 
 6. **Access the App:** Open your web browser and go to **`http://localhost:5173`** to see and interact with the Travel Pin App.
