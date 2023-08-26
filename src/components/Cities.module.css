@@ -1,0 +1,53 @@
+.cities{
+	overflow-y: auto;
+	max-height: 500px;
+	width: 80%;
+}
+.cities ul{
+list-style: none;
+padding: 0;
+
+}
+
+.activeItem{
+	border: 1px solid rgb(77, 131, 248);
+}
+
+.item{
+padding: 16px;
+margin: 8px;
+background-color: #393f43;
+color: white;
+display: flex;
+font-weight: bold;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+border-radius: 6px;
+border-left: 3px solid #00bc5d;
+
+}
+
+.cross{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	font-size: 0.8rem;
+	color: black;	
+	text-align: center;
+	margin: 0 8px;
+	border-radius: 50%;
+	background-color: aliceblue;
+}
+
+.nameHolder{
+	display: flex;
+	flex-direction: column;
+	font-size: 0.9rem;
+}
+
+@media screen and (max-width: 850px) {
+	.cities{
+		width: 100%;
+	}
+}

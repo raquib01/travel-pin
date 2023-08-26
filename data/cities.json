@@ -1,0 +1,53 @@
+{
+  "cities": [
+    {
+      "cityName": "New York",
+      "country": "United States",
+      "emoji": "🇺🇸",
+      "date": "2023-06-15T14:30:00.000Z",
+      "notes": "Visited Times Square and Central Park!",
+      "position": {
+        "lat": 40.712776,
+        "lng": -74.005974
+      },
+      "id": 12345678
+    },
+    {
+      "cityName": "Tokyo",
+      "country": "Japan",
+      "emoji": "🇯🇵",
+      "date": "2022-09-20T10:45:00.000Z",
+      "notes": "Explored Akihabara and Shibuya crossing.",
+      "position": {
+        "lat": 35.682839,
+        "lng": 139.759455
+      },
+      "id": 98765432
+    },
+    {
+      "cityName": "Paris",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2021-07-05T11:15:00.000Z",
+      "notes": "Visited the Eiffel Tower and Louvre Museum.",
+      "position": {
+        "lat": 48.856613,
+        "lng": 2.352222
+      },
+      "id": 24681357
+    },
+    {
+      "cityName": "Sydney",
+      "country": "Australia",
+      "emoji": "🇦🇺",
+      "date": "2023-01-10T08:00:00.000Z",
+      "notes": "Explored the Sydney Opera House and Bondi Beach.",
+      "position": {
+        "lat": -33.868820,
+        "lng": 151.209290
+      },
+      "id": 13579246
+    }
+  ]
+  
+}

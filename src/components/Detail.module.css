@@ -1,0 +1,32 @@
+
+.detail{
+	margin: 1rem;
+	width: 80%;
+	padding: 1rem;
+	border-radius: 6px;
+	background-color: #393f43;
+}
+.detail p{
+	margin-block: 12px;
+	color: rgb(189, 189, 189);
+}
+
+.detail span{
+	font-weight: bold;
+	color: white;
+}
+.detail a{
+	color: orange
+}
+
+.detail .detailBtn{
+	background-color: #00bc5d;
+	padding: 6px 8px;
+	text-align: center;
+	cursor: pointer;
+	max-width: 60px;
+	border: 0;
+	border-radius: 4px;
+	font-weight: bold;
+	color: black;
+}

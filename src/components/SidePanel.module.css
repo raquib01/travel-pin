@@ -1,0 +1,64 @@
+.sidepanel {
+	position: relative;
+	width: 30%;
+	background-color: #272f33;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.8rem;
+	font-size: 1.6rem;
+	padding: 4px 12px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	margin: 32px;
+	letter-spacing: 3px;
+}
+.logo img{
+	width: 40px;
+	height: 40px;
+}
+
+.toggle {
+	background-color: #393f43;
+	display: flex;
+	margin: 16px 0;
+}
+
+.toggle a {
+	display: block;
+	padding: 8px;
+	border-radius: 3px;
+	color: white;
+	cursor: pointer;
+}
+
+.toggle a:global(.active){
+	background-color: #212429;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color: #8b8989;
+}
+
+.footer p {
+	text-align: center;
+}
+
+@media screen and (max-width: 650px) {
+	.sidepanel {
+		max-height: 50vh;
+		width: 100%;
+		position: static;
+	}
+}

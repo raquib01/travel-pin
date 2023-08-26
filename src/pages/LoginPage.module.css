@@ -1,0 +1,55 @@
+
+.loginDiv {
+	height: calc(100vh - 4rem);
+	margin: 2rem;
+	background-color: #272f33;
+}
+
+.loginDiv form {
+	max-width: 350px;
+	margin: auto;
+	margin-top: 200px;
+	padding: 2rem;
+	border-radius: 6px;
+	background-color: #393f43;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.loginDiv label {
+	color: white;
+	font-weight: bold;
+	padding: 2px;
+	margin: 8px 0;
+}
+
+.loginDiv input {
+	margin-bottom: 18px;
+	padding: 6px;
+	border-radius: 8px;
+	background-color: #cfd9db;
+	border: 0;
+}
+
+.loginDiv button {
+	background-color: #00bc5d;
+	padding: 6px 4px;
+	text-align: center;
+	cursor: pointer;
+	max-width: 60px;
+	border: 0;
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 650px) {
+		.loginDiv {
+			margin: 0.2rem;
+			height: calc(100vh - 0.4rem);
+		}
+	
+	.loginDiv form {
+		margin: 100px 25px;
+	}
+}

@@ -1,0 +1,13 @@
+.main {
+	height: calc(100vh - 4rem);
+	margin: 2rem;
+	display: flex;
+}
+
+@media screen and (max-width: 650px) {
+	.main{
+		height: calc(100vh-0.4rem);
+		margin: 0.2rem;
+		flex-direction: column;
+	}
+}

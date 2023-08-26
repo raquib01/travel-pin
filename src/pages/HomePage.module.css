@@ -1,0 +1,52 @@
+.home {
+	height: calc(100vh - 4rem);
+	margin: 2rem;
+	background-image: linear-gradient(
+			rgba(36, 42, 46, 0.8),
+			rgba(36, 42, 46, 0.8)
+		),
+		url("./bg.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.heroDiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 8rem 1rem;
+}
+
+.heroText {
+	padding: 2px;
+	color: white;
+	text-align: center;
+}
+
+.heroSubtext {
+	color: white;
+	margin: 32px 0;
+	text-align: center;
+}
+
+.btnStart {
+	background-color: #00bc5d;
+	padding: 12px 16px;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	display: inline-block;
+	margin: 18px auto;
+	border: 0;
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 650px) {
+
+	.home {
+		margin: 0.2rem;
+		height: calc(100vh - 0.4rem);
+	}
+}
