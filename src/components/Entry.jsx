@@ -127,7 +127,7 @@ export default function Entry() {
 					>
 						Back
 					</button>
-					<button type="submit">Login</button>
+					<button type="submit">Submit</button>
 				</div>
 			</form>
 		</div>

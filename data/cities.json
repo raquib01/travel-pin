@@ -43,11 +43,10 @@
       "date": "2023-01-10T08:00:00.000Z",
       "notes": "Explored the Sydney Opera House and Bondi Beach.",
       "position": {
-        "lat": -33.868820,
-        "lng": 151.209290
+        "lat": -33.86882,
+        "lng": 151.20929
       },
       "id": 13579246
     }
   ]
-  
 }

@@ -57,7 +57,7 @@ With this app, you can easily keep track of your travel experiences and visually
 
 ## Credits
 
-This app was created by `Raquib Khan`. You can find the source code on [GitHub](https://github.com/raquib01/travel-pin).
+This app was created by [Raquib Khan](https://github.com/raquib01). You can find the source code on [GitHub](https://github.com/raquib01/travel-pin).
 
 ## License
 

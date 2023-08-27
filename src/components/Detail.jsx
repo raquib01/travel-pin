@@ -18,7 +18,7 @@ export default function Detail() {
 
 	useEffect(() => {
 		loadCity(id);
-	}, [id]);
+	}, [id, loadCity]);
 	const navigate = useNavigate();
 
 	if (isLoading) return <span style={{ color: "white" }}>Loading.....</span>;
